@@ -266,6 +266,9 @@ vendor/firmware/widevine.b02
 vendor/firmware/widevine.b03
 vendor/firmware/widevine.mdt
 
+# Google Connectivity Service
+-priv-app/GCS/GCS.apk
+
 # Graphics
 vendor/lib/egl/eglsubAndroid.so
 vendor/lib/egl/eglSubDriverAndroid.so

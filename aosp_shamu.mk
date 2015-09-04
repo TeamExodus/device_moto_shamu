@@ -30,6 +30,12 @@ PRODUCT_MODEL := AOSP on Shamu
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
+# Kernel inline build
+TARGET_KERNEL_SOURCE := kernel/moto/shamu
+TARGET_KERNEL_CONFIG := shamu_defconfig
+TARGET_VARIANT_CONFIG := shamu_defconfig
+TARGET_SELINUX_CONFIG := shamu_defconfig
+
 $(call inherit-product, device/moto/shamu/device.mk)
 $(call inherit-product-if-exists, vendor/moto/shamu/device-vendor.mk)
 

@@ -37,7 +37,7 @@ TARGET_VARIANT_CONFIG := shamu_defconfig
 TARGET_SELINUX_CONFIG := shamu_defconfig
 
 $(call inherit-product, device/moto/shamu/device.mk)
-$(call inherit-product-if-exists, vendor/motorola/shamu/device-vendor.mk)
+$(call inherit-product-if-exists, device/moto/shamu/vendorfiles/device-vendor.mk)
 
 PRODUCT_NAME := aosp_shamu
 

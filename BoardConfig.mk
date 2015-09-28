@@ -179,7 +179,7 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 # TWRP
 DEVICE_RESOLUTION := 1440x2560
 
--include vendor/moto/shamu/BoardConfigVendor.mk
+-include device/moto/shamu/vendorfiles/BoardConfigVendor.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     fmas.spkr_6ch=35,20,110 \

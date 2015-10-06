@@ -341,8 +341,7 @@ PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/msm_sdcc.1/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
 
 PRODUCT_PACKAGES += \
-    slideshow \
-    verity_warning_images
+    slideshow
 
 # setup scheduler tunable
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

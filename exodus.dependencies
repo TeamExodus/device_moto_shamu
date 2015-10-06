@@ -4,7 +4,7 @@
     "target_path": "kernel/moto/shamu"
   },
   {
-    "repository": "Exodus-Vendors/vendor_motorola_shamu",
+    "repository": "vendor_motorola_shamu",
     "target_path": "vendor/motorola/shamu"
   }
 ]

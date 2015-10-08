@@ -93,8 +93,8 @@ PRODUCT_COPY_FILES += \
     device/moto/shamu/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
 
 # BT FW
-PRODUCT_COPY_FILES += \
-    device/moto/shamu/bluetooth/BCM4356A2_001.003.015.0077.0214_ORC.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4354A2.hcd
+#PRODUCT_COPY_FILES += \
+#    device/moto/shamu/bluetooth/BCM4356A2_001.003.015.0077.0214_ORC.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4354A2.hcd
 
 # For SPN display
 PRODUCT_COPY_FILES += \

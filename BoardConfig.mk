@@ -139,4 +139,4 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 # TWRP
 DEVICE_RESOLUTION := 1440x2560
 
--include vendor/moto/shamu/BoardConfigVendor.mk
+-include vendor/motorola/shamu/BoardConfigVendor.mk

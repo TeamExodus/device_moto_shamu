@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "Exodus-Kernels/moto_shamu",
+    "target_path": "kernel/moto/shamu"
+  },
+  {
+    "repository": "Exodus-Vendors/motorola_shamu",
+    "target_path": "vendor/motorola/shamu"
+  }
+]

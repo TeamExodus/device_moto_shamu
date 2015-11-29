@@ -6,9 +6,5 @@
   {
     "repository": "Exodus-Vendors/motorola_shamu",
     "target_path": "vendor/motorola/shamu"
-  },
-  {
-    "repository": "TeamExodus/hardware_qcom_msm8x84",
-	"target_path": "hardware/qcom/msm8x84"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
-    "repository": "TeamExodus/device_moto_shamu",
+    "repository": "TeamExodus/kernel_moto_shamu",
     "target_path": "kernel/moto/shamu"
   },
   {
-    "repository": "TeamExodus/device_motorola_shamu",
+    "repository": "TeamExodus/vendor_motorola_shamu",
     "target_path": "vendor/motorola/shamu"
   }
 ]

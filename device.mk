@@ -241,6 +241,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.qmi.adb_logmask=0 \
     persist.radio.alt_mbn_name=tmo_alt.mbn
 
+# Allows tethering without provisioning
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
+
 # never dexopt the MotoSignature
 $(call add-product-dex-preopt-module-config,MotoSignatureApp,disable)
 

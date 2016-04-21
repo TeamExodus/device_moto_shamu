@@ -2,6 +2,9 @@
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
+#We want to build our own recovery
+-include device/moto/shamu/ExodusRecovery.mk
+
 # Inherit some common Exodus stuff.
 $(call inherit-product, vendor/exodus/config/common_full_phone.mk)
 

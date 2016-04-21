@@ -152,5 +152,3 @@ BOARD_HARDWARE_CLASS := \
 USE_CLANG_PLATFORM_BUILD := true
 
 -include vendor/motorola/shamu/BoardConfigVendor.mk
-
--include device/moto/shamu/ExodusRecovery.mk
